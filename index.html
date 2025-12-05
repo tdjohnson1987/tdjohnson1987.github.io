@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thomas Johnson — Portfolio</title>
+  <meta name="description" content="Thomas Johnson — Clinical Biomechanics, Health & Sports Technology. Bridging rehabilitation, research, and technology." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Thomas Johnson</h1>
+        <p class="tagline">Clinical Biomechanics • Health & Sports Technology<br>Bridging Rehabilitation, Research, and Technology</p>
+      </div>
+
+      <nav class="site-nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact" class="btn">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Intro / hero -->
+    <section class="intro section">
+      <div class="container intro-grid">
+        <div>
+          <h2 class="section-title">Welcome</h2>
+          <p>Hello! I’m Thomas Johnson, a Clinical Biomechanist specializing in Health and Sports Technology. I focus on integrating rehabilitation, research, and technology to improve patient outcomes and athletic performance.</p>
+          <p>This portfolio showcases selected projects, research, and my professional journey—and how to connect with me.</p>
+          <div class="cta-row">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-outline" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <figure class="intro-figure">
+          <img src="images/thomas_johnson.jpg" alt="Portrait of Thomas Johnson" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2 class="section-title">About Me</h2>
+        <p>I work at the intersection of clinical practice, biomechanics, and technology. My background spans specialist podiatry andorthotic prescription, gait analysis, and rehabilitation research. I’m interested in how quantitative movement data and digital tools can improve clinical decision-making and patient outcomes.</p>
+        <p>Currently, I combine clnical work with .</p>
+        <ul class="chips" aria-label="Key skills">
+          <li>Gait analysis</li>
+          <li>Orthotics & Rehabilitation</li>
+          <li>Applied biomechanics</li>
+          <li>Python • React • Swift • MATLAB • SPSS</li>
+          <li>OpenSim</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research" class="section section-alt">
+      <div class="container narrow">
+        <h2 class="section-title">Research & Presentations</h2>
+        <ul class="list">
+          <li><strong>Effects of Rocker Sole Density on Gait Mechanics</strong> — ISB 2023, Fukuoka, Japan.</li>
+          <!-- Add more as you publish -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+      <div class="container">
+        <h2 class="section-title">Work</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h3>Specialist Podiatrist & Digital Development Lead — CampPro</h3>
+            <p class="meta">Stockholm • 2022–Present</p>
+            <p>Clinical education, digital workflows, and collaborations with GIH/KTH.</p>
+          </article>
+          <article class="timeline-item">
+            <h3>Assistant Researcher — Moveability Lab, KTH</h3>
+            <p class="meta">Stockholm • 2022–Present</p>
+            <p>Plantar pressure & gait data analysis using Python/MATLAB; rocker-shoe biomechanics; presentation at ISB 2023.</p>
+          </article>
+          <article class="timeline-item">
+            <h3>Head of Education & Clinical Development — TeamOlmed Paediatrics</h3>
+            <p class="meta">Stockholm • 2019–2022</p>
+            <p>Neuro & paediatric orthotics, clinician education, and product development with clinic partners.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="grid">
+          <!-- Project 1 -->
+          <article class="card">
+            <header class="card-header">
+              <h3>JumpPro</h3>
+              <p class="meta">Python, Pandas, SciPy, Matplotlib </p>
+            </header>
+            <p>Exploratory data analysis to build a model and application to detect and measure jumps in real-time using IMU, in collaboration with the Swedish Beach Volleyball team.</p>
+            <div class="card-actions">
+              <a class="btn btn-sm" href="#" aria-label="Open notebook">Notebook</a>
+              <a class="btn btn-sm btn-outline" href="#" aria-label="View results">Plots</a>
+              <a class="btn btn-sm btn-outline" href="#" aria-label="Download summary PDF">Summary PDF</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card">
+            <header class="card-header">
+              <h3>Shoulder Load Monitor</h3>
+              <p class="meta">React, Swift, BLE </p>
+            </header>
+            <p>Application to monitor and visualise glenohumeral joint activity in real-time by parsing accelerometer and gyrometer data from an IMU. </p>
+            <div class="card-actions">
+              <a class="btn btn-sm" href="#" aria-label="Code repository">Repository</a>
+              <a class="btn btn-sm btn-outline" href="#" aria-label="Visualizations">Visualizations</a>
+              <a class="btn btn-sm btn-outline" href="#" aria-label="Technical report">Tech Report</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card">
+            <header class="card-header">
+              <h3>Performance Protocol</h3>
+              <p class="meta">React, Swift, Core ML, VNDetectHumanBodyPoseRequest </p>
+            </header>
+            <p>Performance application to help coaches, trainers, doctors and rehab professionals communicate information with athletes in a pedagogic and actionable way</p>
+            <div class="card-actions">
+              <a class="btn btn-sm" href="#" aria-label="Simulation files">Simulation Files</a>
+              <a class="btn btn-sm btn-outline" href="#" aria-label="Result graphs">Graphs</a>
+              <a class="btn btn-sm btn-outline" href="#" aria-label="Project report">Report</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container narrow">
+        <h2 class="section-title">Contact</h2>
+        <ul class="list">
+          <li>Email: <a href="mailto:thomas.johnson@camppro.se">thomas.johnson@camppro.se</a></li>
+          <li>LinkedIn: <a href="https://linkedin.com/in/thomasjohnson" target="_blank" rel="noopener">linkedin.com/in/thomasjohnson</a></li>
+          <li>Location: Stockholm, Sweden</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Thomas Johnson</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle (no frameworks)
+    const btn = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('#nav-menu');
+    if (btn && menu) {
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!expanded));
+        menu.classList.toggle('open');
+      });
+    }
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+<!-- Potential alternative version of the Projects section with commented-out code: -->
+        <!-- <div class="grid"> -->
+          <!-- Project 1 -->
+          <!-- <article class="card">
+            <header class="card-header">
+              <h3>Python-Based Gait Feature Extraction</h3>
+              <p class="meta">Python, Pandas, SciPy, Matplotlib</p>
+            </header>
+            <p>Identify stance/swing and extract pressure-based gait metrics from open or clinical datasets; filtering, event detection, and temporal-spatial parameters with clear plots.</p>
+            <div class="card-actions">
+              <a class="btn btn-sm" href="#" aria-label="Open notebook">Notebook</a>
+              <a class="btn btn-sm btn-outline" href="#" aria-label="View results">Plots</a>
+              <a class="btn btn-sm btn-outline" href="#" aria-label="Download summary PDF">Summary PDF</a>
+            </div>
+          </article> -->
+
+          <!-- Project 2 -->
+          <!-- <article class="card">
+            <header class="card-header">
+              <h3>AI Shoe Fit / Pressure Pattern Prediction</h3>
+              <p class="meta">Python, scikit-learn, NumPy</p>
+            </header>
+            <p>Simple ML model to classify plantar pressure maps by gait phase or footwear condition; includes evaluation with a confusion matrix and error analysis.</p>
+            <div class="card-actions">
+              <a class="btn btn-sm" href="#" aria-label="Code repository">Repository</a>
+              <a class="btn btn-sm btn-outline" href="#" aria-label="Visualizations">Visualizations</a>
+              <a class="btn btn-sm btn-outline" href="#" aria-label="Technical report">Tech Report</a>
+            </div>
+          </article> -->
+
+          <!-- Project 3 -->
+          <!-- <article class="card">
+            <header class="card-header">
+              <h3>Orthotic Impact Simulation in OpenSim</h3>
+              <p class="meta">OpenSim, MATLAB/Python</p>
+            </header>
+            <p>Models changes in joint moments and muscle activation with different orthotic stiffness parameters; comparative kinematic/kinetic visualizations.</p>
+            <div class="card-actions">
+              <a class="btn btn-sm" href="#" aria-label="Simulation files">Simulation Files</a>
+              <a class="btn btn-sm btn-outline" href="#" aria-label="Result graphs">Graphs</a>
+              <a class="btn btn-sm btn-outline" href="#" aria-label="Project report">Report</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section> -->
